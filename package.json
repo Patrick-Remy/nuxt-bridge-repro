@@ -1,0 +1,18 @@
+{
+  "name": "nuxt3-repro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "nuxt-edge": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27234368.47ea41d",
+    "@nuxt/types": "^2.15.8"
+  }
+}
